@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #000;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url("Wankhede_compress.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+body.dark-mode {
+  background: black;
+  color: white;
+  text-align: center;
+  background: url("zoshua-colah-uplPFLDsn84-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  
+}
+.container {
+  margin-top: 40px;
+}
+
+.scoreboard {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: gold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.wicket {
+  background-color: red;
+}
+
+.extras {
+  background-color: gold;
+  color: darkgreen;
+}
+
+.dark-mode {
+  background-color: black;
+  color: gold;
+}
+
+.dark-mode .scoreboard {
+  display: inline-block;
+}
+
+.action-btn {
+  background-color: green
+}
+
+#status {
+  font-weight: bold;
+  color: darkblue;
+  margin-top: 10px;
+  background-color: yellow;
+  display: inline-flex;
+}
+label.action-btn input[type="checkbox"] {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.hidden{
+  opacity: 0.3;
+  pointer-events: none;
+}
+.ext{
+  opacity: 0.3;
+  pointer-events: none;
+}
+.unc{
+  opacity: 0.3;
+  pointer-events: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Scorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏏 Cricket Scorer</h1>
+    <div class="scoreboard">
+      <p id="runs">Runs: 0</p>
+      <p id="wickets">Wickets: 0</p>
+      <p id="overs">Overs: 0.0</p>
+      <p id="status"></p>
+    </div>
+
+    <div id="buttons">
+      <button onclick="addRun(0)">0</button>
+      <button onclick="addRun(1)">1</button>
+      <button onclick="addRun(2)">2</button>
+      <button onclick="addRun(3)">3</button>
+      <button onclick="addRun(4)">4</button>
+      <button onclick="addRun(6)">6</button>
+      <button class="wicket" onclick="addWicket()">Wicket</button>
+    </div>
+
+    <div id="ex">
+      <button class="extras" onclick="addExtra('wide')">Wide</button>
+      <button class="extras" onclick="addExtra('noball')">No-ball</button>
+    </div>
+
+    <br>
+    <button class="action-btn" id="un" onclick="undo()">↩ Undo</button>
+    <button class="action-btn" onclick="resetScore()">🔄 Reset</button>
+    <button class="action-btn" id="mode" onclick="toggleDarkMode()">🌙 Dark Mode</button><br><br><br>
+    <div>
+  <label class="action-btn">
+    <input type="checkbox" id="endInnings" onchange="toggleInnings()">
+    End Innings
+  </label>
+</div>
+
+
+  </div>
+
+  <script src="jscript.js"></script>
+</body>
+</html>
